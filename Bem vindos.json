@@ -1,0 +1,172 @@
+{
+  "id": "9e5e49fb-ce7c-4f1d-a634-eea8fde30e25",
+  "name": "Bem vindos",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "telegram",
+          "condition": "",
+          "imageUrl": "https://cdn.glitch.global/f9969673-3251-41b8-9c10-6e525cdad2b0/photo_2023-03-15_09-07-03.png?v=1680097145029"
+        },
+        {
+          "type": "card",
+          "platform": "telegram",
+          "condition": "",
+          "title": "Olá! Tudo bem? Eu sou o Urobot, seu Doutor Virtual. Antes de a gente começar eu gosta de saber mais de você.",
+          "buttons": [
+            {
+              "text": "Vamos começar"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75e61f8b-4cd4-49a5-8518-8c0eb9cb3063",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hi",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "19b568fc-675d-43a0-8e75-deae68654222",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "fala ai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9669fd0-e55e-44c7-a681-1fd05277995a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "eae",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "7e6e8d30-88fa-4be2-831f-870d55dfdf11",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Boa ",
+          "userDefined": false
+        },
+        {
+          "text": "tarde",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "2b31be59-3f23-4ee2-bd9b-f946ce106580",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bom dia",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "43a5a655-7668-4613-8419-8f1806121900",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Oi",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "70f4d837-bb2a-4230-81c6-2b0c3ea50196",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Olá",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "33aa0d46-8668-4241-b7bb-76dddeef65ad",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

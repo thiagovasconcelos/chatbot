@@ -1,0 +1,67 @@
+{
+  "id": "1012ae0a-554b-4eba-9f05-d9f25eca9db6",
+  "name": "Consulta_teste",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "CNS",
+          "dataType": "@sys.any",
+          "isList": true,
+          "required": true,
+          "prompts": [
+            "informe seu cartão nacional do SUS"
+          ],
+          "value": "$CNS",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "10",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a6c507c3-1a6c-428e-b6bb-fcfcda457bc9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

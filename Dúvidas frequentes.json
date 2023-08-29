@@ -1,0 +1,134 @@
+{
+  "id": "c8ee2101-c0d6-4e08-9f1d-e4007a2c3909",
+  "name": "Dúvidas frequentes",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "duvidas",
+          "dataType": "@sys.any",
+          "isList": true,
+          "required": true,
+          "prompts": [
+            "1 - Com qual idade devo procurar o urologista?\n\n2 - Urologista é médico apenas de homem?\n\n3 - Estou acordando a noite para urinar, será que estou com problema de próstata?\n\n4 - Acordar para urinara à noite é normal?\n\n5 - O que é incontinência urinária?\n\n6 - O que é urgência miccional?\n\n7 - Próstata grande é sinal de câncer?\n\n8 - O que é PSA?\n\n9 - Quando devo começar a dosar PSA?\n\n10 - O que causa sangramento na urina?\n\n11 - O que causa pedra no rim?"
+          ],
+          "value": "$duvidas",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "duv_2",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "Urologista é médico apenas de homem?"
+          ],
+          "value": "$duv_2",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "duv_3",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$duv_3",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Duvidas",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a441af20-3d53-47bb-9305-e6d4ab27cbed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Duvidas frequestes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9dc6b77a-0c61-4799-87c3-b99b50e4ee35",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "3094fa14-2de9-4bab-ba05-20c5545aa50f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

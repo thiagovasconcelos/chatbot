@@ -1,0 +1,184 @@
+{
+  "id": "6ccaa234-3c63-4695-a1b9-5ee35ed3d82c",
+  "name": "IPSS2",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "perg_10",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "No último mês, quantas vezes, em média, você teve a sensação de não esvaziar completamente a bexiga, depois de terminar de urinar?\n\n0 - Nenhuma vez\n1 - Menos que 1 vez em cada 5 vezes\n2 - Menos que a metade das vezes\n3 - Cerca de metade das vezes\n4 - Mais que a metade das vezes\n5 - Quase sempre"
+          ],
+          "value": "$perg_10",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "perg_20",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "No último mês, quantas vezes, em média, você teve que urinar de novo menos de 2 horas depois de terminar de urinar?\n\n0 - Nenhuma vez\n1 - Menos que 1 vez em cada 5 vezes\n2 - Menos que a metade das vezes\n3 - Cerca de metade das vezes\n4 - Mais que a metade das vezes\n5 - Quase sempre"
+          ],
+          "value": "$perg_20",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "perg_30",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "No último mês, quantas vezes, em média, você notou que parava e recomeçava várias vezes quando urinava?\n\n0 - Nenhuma vez\n1 - Menos que 1 vez em cada 5 vezes\n2 - Menos que a metade das vezes\n3 - Cerca de metade das vezes\n4 - Mais que a metade das vezes\n5 - Quase sempre"
+          ],
+          "value": "$perg_30",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "perg_40",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "No último mês, quantas vezes em média, você notou que foi difícil conter a vontade de urinar?\n\n0 - Nenhuma vez\n1 - Menos que 1 vez em cada 5 vezes\n2 - Menos que a metade das vezes\n3 - Cerca de metade das vezes\n4 - Mais que a metade das vezes\n5 - Quase sempre"
+          ],
+          "value": "$perg_40",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "perg_50",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "No último mês, quantas vezes em média, você notou que o jato urinário estava fraco?\n\n0 - Nenhuma vez\n1 - Menos que 1 vez em cada 5 vezes\n2 - Menos que a metade das vezes\n3 - Cerca de metade das vezes\n4 - Mais que a metade das vezes\n5 - Quase sempre"
+          ],
+          "value": "$perg_50",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "perg_60",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "No último mês, quantas vezes em média você teve fazer força para começar a urinar?\n\n0 - Nenhuma vez\n1 - Uma vez\n2 - Duas vezes\n3 - Três vezes\n4 - Quatro vezes\n5 - Cinco vezes"
+          ],
+          "value": "$perg_60",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "perg_70",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "No último mês, quantas vezes, em média, você teve que se levantar em cada noite para urinar?\n\n0 - Nenhuma vez\n1 - Uma vez\n2 - Duas vezes\n3 - Três vezes\n4 - Quatro vezes\n5 - Cinco vezes"
+          ],
+          "value": "$perg_70",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "perg_80",
+          "dataType": "@sys.number-integer",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Se você tivesse que passar o resto da vida urinando como está agora, como é que você se sentiria?\n\n0 - Ótimo\n1 - Muito bem\n2 - Satisfeito\n3 - Mais ou menos\n4 - Insatisfeito\n5 - Mal\n6 - Péssimo"
+          ],
+          "value": "$perg_80",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee7761a2-bdcd-449b-a5d5-e13841d8f893",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ipss",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7ae3034-c9ca-4f42-ab03-f35c014e7630",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
